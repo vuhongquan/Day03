@@ -10,6 +10,14 @@
 		CDFBD8FF16F2CE1B00DBC12B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFBD8FE16F2CE1B00DBC12B /* Foundation.framework */; };
 		CDFBD90216F2CE1B00DBC12B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD90116F2CE1B00DBC12B /* main.m */; };
 		CDFBD90616F2CE1B00DBC12B /* Geometry.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDFBD90516F2CE1B00DBC12B /* Geometry.1 */; };
+		CDFBD90E16F2E37800DBC12B /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD90D16F2E37800DBC12B /* Geometry.m */; };
+		CDFBD91116F2E39400DBC12B /* HinhTamGiac.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD91016F2E39400DBC12B /* HinhTamGiac.m */; };
+		CDFBD91416F2E3CB00DBC12B /* HinhChuNhat.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD91316F2E3CB00DBC12B /* HinhChuNhat.m */; };
+		CDFBD91716F2E41700DBC12B /* HinhVuong.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD91616F2E41600DBC12B /* HinhVuong.m */; };
+		CDFBD91A16F2E43500DBC12B /* HinhElip.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD91916F2E43500DBC12B /* HinhElip.m */; };
+		CDFBD91D16F2E44C00DBC12B /* HinhTron.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD91C16F2E44C00DBC12B /* HinhTron.m */; };
+		CDFBD92016F2E48A00DBC12B /* HinhThang.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD91F16F2E48A00DBC12B /* HinhThang.m */; };
+		CDFBD92316F2E4BA00DBC12B /* HinhBinhHanh.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD92216F2E4BA00DBC12B /* HinhBinhHanh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +39,22 @@
 		CDFBD90116F2CE1B00DBC12B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDFBD90416F2CE1B00DBC12B /* Geometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geometry-Prefix.pch"; sourceTree = "<group>"; };
 		CDFBD90516F2CE1B00DBC12B /* Geometry.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Geometry.1; sourceTree = "<group>"; };
+		CDFBD90C16F2E37800DBC12B /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		CDFBD90D16F2E37800DBC12B /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		CDFBD90F16F2E39400DBC12B /* HinhTamGiac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinhTamGiac.h; sourceTree = "<group>"; };
+		CDFBD91016F2E39400DBC12B /* HinhTamGiac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinhTamGiac.m; sourceTree = "<group>"; };
+		CDFBD91216F2E3CB00DBC12B /* HinhChuNhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinhChuNhat.h; sourceTree = "<group>"; };
+		CDFBD91316F2E3CB00DBC12B /* HinhChuNhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinhChuNhat.m; sourceTree = "<group>"; };
+		CDFBD91516F2E41600DBC12B /* HinhVuong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinhVuong.h; sourceTree = "<group>"; };
+		CDFBD91616F2E41600DBC12B /* HinhVuong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinhVuong.m; sourceTree = "<group>"; };
+		CDFBD91816F2E43500DBC12B /* HinhElip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinhElip.h; sourceTree = "<group>"; };
+		CDFBD91916F2E43500DBC12B /* HinhElip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinhElip.m; sourceTree = "<group>"; };
+		CDFBD91B16F2E44C00DBC12B /* HinhTron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinhTron.h; sourceTree = "<group>"; };
+		CDFBD91C16F2E44C00DBC12B /* HinhTron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinhTron.m; sourceTree = "<group>"; };
+		CDFBD91E16F2E48A00DBC12B /* HinhThang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinhThang.h; sourceTree = "<group>"; };
+		CDFBD91F16F2E48A00DBC12B /* HinhThang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinhThang.m; sourceTree = "<group>"; };
+		CDFBD92116F2E4BA00DBC12B /* HinhBinhHanh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinhBinhHanh.h; sourceTree = "<group>"; };
+		CDFBD92216F2E4BA00DBC12B /* HinhBinhHanh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinhBinhHanh.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +72,20 @@
 		CDFBD8F216F2CE1B00DBC12B = {
 			isa = PBXGroup;
 			children = (
+				CDFBD92116F2E4BA00DBC12B /* HinhBinhHanh.h */,
+				CDFBD92216F2E4BA00DBC12B /* HinhBinhHanh.m */,
+				CDFBD91E16F2E48A00DBC12B /* HinhThang.h */,
+				CDFBD91F16F2E48A00DBC12B /* HinhThang.m */,
+				CDFBD91B16F2E44C00DBC12B /* HinhTron.h */,
+				CDFBD91C16F2E44C00DBC12B /* HinhTron.m */,
+				CDFBD91816F2E43500DBC12B /* HinhElip.h */,
+				CDFBD91916F2E43500DBC12B /* HinhElip.m */,
+				CDFBD91516F2E41600DBC12B /* HinhVuong.h */,
+				CDFBD91616F2E41600DBC12B /* HinhVuong.m */,
+				CDFBD91216F2E3CB00DBC12B /* HinhChuNhat.h */,
+				CDFBD91316F2E3CB00DBC12B /* HinhChuNhat.m */,
+				CDFBD90F16F2E39400DBC12B /* HinhTamGiac.h */,
+				CDFBD91016F2E39400DBC12B /* HinhTamGiac.m */,
 				CDFBD90016F2CE1B00DBC12B /* Geometry */,
 				CDFBD8FD16F2CE1B00DBC12B /* Frameworks */,
 				CDFBD8FC16F2CE1B00DBC12B /* Products */,
@@ -76,6 +114,8 @@
 				CDFBD90116F2CE1B00DBC12B /* main.m */,
 				CDFBD90516F2CE1B00DBC12B /* Geometry.1 */,
 				CDFBD90316F2CE1B00DBC12B /* Supporting Files */,
+				CDFBD90C16F2E37800DBC12B /* Geometry.h */,
+				CDFBD90D16F2E37800DBC12B /* Geometry.m */,
 			);
 			path = Geometry;
 			sourceTree = "<group>";
@@ -140,6 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFBD90216F2CE1B00DBC12B /* main.m in Sources */,
+				CDFBD90E16F2E37800DBC12B /* Geometry.m in Sources */,
+				CDFBD91116F2E39400DBC12B /* HinhTamGiac.m in Sources */,
+				CDFBD91416F2E3CB00DBC12B /* HinhChuNhat.m in Sources */,
+				CDFBD91716F2E41700DBC12B /* HinhVuong.m in Sources */,
+				CDFBD91A16F2E43500DBC12B /* HinhElip.m in Sources */,
+				CDFBD91D16F2E44C00DBC12B /* HinhTron.m in Sources */,
+				CDFBD92016F2E48A00DBC12B /* HinhThang.m in Sources */,
+				CDFBD92316F2E4BA00DBC12B /* HinhBinhHanh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
